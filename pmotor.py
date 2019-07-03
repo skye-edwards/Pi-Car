@@ -71,7 +71,7 @@ try:
 			GPIO.output(m2For,False)
 			GPIO.output(m2Back,True)
 		#Stop the Car with the Home key
-		elif char == curses.KEY_HOME:
+		elif char == ord('p'):
 			GPIO.output(m1For,False)
 			GPIO.output(m1Back,False)
 			GPIO.output(m2For,False)
